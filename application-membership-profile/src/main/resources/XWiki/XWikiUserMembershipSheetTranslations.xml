@@ -20,9 +20,9 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.3" reference="XWiki.UserProfileTranslations" locale="">
+<xwikidoc version="1.3" reference="XWiki.XWikiUserMembershipSheetTranslations" locale="">
   <web>XWiki</web>
-  <name>UserProfileTranslations</name>
+  <name>XWikiUserMembershipSheetTranslations</name>
   <language/>
   <defaultLanguage>en</defaultLanguage>
   <translation>0</translation>
@@ -36,19 +36,12 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>XWiki.XWikiUsers_displayHiddenDocuments.hint=The wiki contains documents that are not displayed by default. These hidden documents represent technical content, like application classes, configuration pages, macros, styles, scripts, etc.
-XWiki.XWikiUsers_accessibility.hint=Extra accessibility will enable various visual enhancements like: bigger fonts, underlined links, etc.
-XWiki.XWikiUsers_timezone.hint=Use a specific timezone so that the dates reflect your current location.
-XWiki.XWikiUsers_editor.hint=Choose what editor will be the default one, overriding the default editor set globally. If not defined, a default editor is chosen, depending on what is being edited.
-XWiki.XWikiUsers_usertype.hint=Choose what type of user will be the default one. Advanced users will have access to multiple editing features, terminal page creation, etc.
-XWiki.XWikiUsers_extensionConflictSetup.hint=Indicate if you want Extension Manager to ask you to confirm conflict resolution default rules (for example tell Extension Manager to ask you what to do if the document to upgrade has been removed from the wiki).
-userprofile.default=Default
-user.profile.groups.title=My Groups
+  <content>user.profile.groups.title=My Groups
 user.profile.groups.description=Here are listed all the groups your user belongs to.
 user.profile.groups.table.group=Group
 platform.core.profile.category.groups=My Groups</content>
   <object>
-    <name>XWiki.UserProfileTranslations</name>
+    <name>XWiki.XWikiUserMembershipSheetTranslations</name>
     <number>0</number>
     <className>XWiki.TranslationDocumentClass</className>
     <guid>39831c7b-c24e-405e-81ab-12e8e3d6af4a</guid>
