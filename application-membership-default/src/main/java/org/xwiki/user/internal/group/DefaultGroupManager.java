@@ -203,6 +203,7 @@ public class DefaultGroupManager implements GroupManager
                     // Protect against cross references between groups
                     if (!rootGroups.contains(group)) {
                         rootGroups.add(group);
+                        resolvedGroups.add(group);
 
                         Collection<DocumentReference> subGRoups = getGroups(group, cacheWikis, true, rootGroups);
 
@@ -341,6 +342,7 @@ public class DefaultGroupManager implements GroupManager
                     // Protect against cross references between groups
                     if (!rootMembers.contains(member)) {
                         rootMembers.add(member);
+                        resolvedMembers.add(member);
 
                         Collection<DocumentReference> subMembers = getMembers(member, true, rootMembers);
 
