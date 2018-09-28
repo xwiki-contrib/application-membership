@@ -29,7 +29,7 @@
   </parent>
   <groupId>org.xwiki.contrib.membership</groupId>
   <artifactId>application-membership</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>1.0.5</version>
   <name>Application - Membership</name>
   <packaging>pom</packaging>
   <description>Application - Membership</description>
@@ -48,7 +48,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/application-membership.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-membership.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-membership/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>application-membership-1.0.5</tag>
   </scm>
   <developers>
     <developer>
